@@ -29,14 +29,12 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .logo {
-    width: 140px;
-    display: flex;
-    justify-content: left;
+    width: 160px;
 }
 
 nav ul li {
@@ -420,7 +418,7 @@ nav .fa-solid{
         background-image: url(images/phone-bg.png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 110%;
         font-size: 16px;
     }
     .header-text h1{
@@ -487,6 +485,11 @@ nav .fa-solid{
       .copyright{
         font-size: 14px;
       }
+      .logo{
+        margin-top: 15px;
+        margin-left: -20px;
+      }
+
 }
 
 #msg{
